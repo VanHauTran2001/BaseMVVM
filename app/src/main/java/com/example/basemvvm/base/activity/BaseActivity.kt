@@ -7,7 +7,7 @@ import com.fatherofapps.androidbase.base.dialogs.ConfirmDialog
 import com.fatherofapps.androidbase.base.dialogs.ErrorDialog
 import com.fatherofapps.androidbase.base.dialogs.NotifyDialog
 
-class BaseActivity : AppCompatActivity() {
+open class BaseActivity : AppCompatActivity() {
     open fun showLoading(isShow: Boolean) {
 
     }
